@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App {
+  text-align: center;
+}
+
+div {
+  color: white;
+}
+
+body {
+  background-image: url("https://safetyalliancebc.ca/wp-content/uploads/2021/01/covid19.png");
+}
+
+.bg-img {
+  opacity: 0.5;
+}
+.margin-topic {
+  margin-top: 50px;
+  padding: 30px;
+}
+.margin-date {
+  margin-bottom: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.text-position-head {
+  text-align: center;
+  color: rgb(142, 213, 255);
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+  /* text-shadow:white; */
+  /* -webkit-text-stroke: 1px rgb(0, 55, 92); */
+  font-size: 70px;
+}
+
+.text-position {
+  text-align: center;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+
+.text-body {
+  text-align: center;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+
+.infection-card {
+  background-color: #d40000;
+  padding-top: 35px;
+  margin: 5px;
+  margin-left: -9px;
+  height: 185px;
+  width: 1070px;
+  border-radius: 10px;
+}
+.recover-card {
+  background-color: #00c40a;
+  padding-top: 35px;
+  margin: 5px;
+  width: 350px;
+  height: 185px;
+  border-radius: 10px;
+}
+.hospital-card {
+  background-color: #00cce7;
+  padding-top: 35px;
+  margin: 5px;
+  width: 350px;
+  height: 185px;
+  border-radius: 10px;
+}
+.dead-card {
+  background-color: rgb(150, 150, 150);
+  padding-top: 35px;
+  margin: 5px;
+  width: 350px;
+  height: 185px;
+  border-radius: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
